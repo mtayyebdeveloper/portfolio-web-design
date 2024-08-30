@@ -1,0 +1,519 @@
+/* min width 2000px ( min width mutlub dade 2000px na bara. da 2000px na kata ba kar nake)*/
+@media (min-width:2000px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+    }
+
+    #header-item .header-heading {
+        margin: 0 37%;
+        width: 100%;
+        font-size: 3.5rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px 13%;
+        font-size: 30px;
+    }
+
+    #btn-flexes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 11%;
+    }
+
+    #btn-flexes .btn {
+        margin: 0 20px;
+    }
+}
+
+/* max width 2000px ( max width da 2000px na kata. yane da 2000px na da lande) */
+@media (max-width:2000px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+    }
+
+    #header-item .header-heading {
+        margin: 0 30%;
+        width: 100%;
+        font-size: 3.5rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px 13%;
+        font-size: 30px;
+    }
+
+    #btn-flexes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 11%;
+    }
+
+    #btn-flexes .btn {
+        margin: 0 20px;
+    }
+}
+
+/* max width 1500px */
+@media (max-width:1500px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+    }
+
+    #header-item .header-heading {
+        margin: 0 22%;
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px 13%;
+        font-size: 26px;
+    }
+}
+
+/* max width 1300px */
+@media (max-width:1300px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 16vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 20%;
+        width: 100%;
+        font-size: 2.8rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px 10%;
+        font-size: 24px;
+    }
+
+    #btn-flexes {
+        margin: 10px 5vw;
+    }
+
+    #btn-flexes .btn {
+        margin: 0 10px;
+    }
+}
+
+/* max width 1100px */
+@media (max-width:1100px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 25vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 6%;
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px 0;
+        font-size: 24px;
+    }
+
+    #btn-flexes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px -1%;
+    }
+
+    #btn-flexes .btn {
+        margin: 0 10px;
+    }
+}
+
+/* max width 900px */
+@media (max-width:900px) {
+    #header-item .header-heading {
+        margin: 0 -8%;
+        width: 115%;
+        font-size: 2.5rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px -8%;
+        font-size: 24px;
+    }
+
+    #btn-flexes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px -10%;
+    }
+
+    #btn-flexes .btn {
+        margin: 0 10px;
+    }
+}
+
+/* max width 800px */
+@media (max-width:800px) {
+
+    nav .nav-bar {
+        background-color: rgba(0, 0, 0, 0.712);
+        color: white;
+        z-index: 1;
+        height: 30rem;
+        position: absolute;
+        width: 100%;
+        animation: navbar 1s ease-in 1;
+        display: none;
+    }
+
+    @keyframes navbar {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+    nav #navbar-open-icon {
+        display: block;
+    }
+
+    nav #navlist-close-icon {
+        display: block;
+    }
+
+    nav .nav-bar ul {
+        display: block;
+        margin: 3rem 0;
+    }
+
+    nav .nav-bar ul li {
+        margin: 15px 0;
+        padding: 10px 15vw;
+    }
+
+    nav .nav-bar ul li a {
+        color: white;
+    }
+
+    .active,
+    nav .nav-bar ul li:hover {
+        background-color: rgb(139, 136, 136);
+    }
+
+    nav .nav-bar ul .drop-down-menu .drop-down-list {
+        background-color: rgba(0, 0, 0, 0.61);
+        top: 13rem;
+        width: 15rem;
+        right: 1rem;
+    }
+
+    nav .nav-bar ul .drop-down-menu .drop-down-list {
+        position: absolute;
+        right: 1rem;
+    }
+
+    nav .nav-bar ul .drop-down-menu .drop-down-list li {
+        padding: 10px 5px;
+    }
+
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 33vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 -23%;
+        width: 127%;
+        font-size: 2.5rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px -14%;
+        font-size: 24px;
+    }
+
+    #btn-flexes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px -18%;
+    }
+}
+
+/* max width 700px */
+@media (max-width:700px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 34vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 -15vw;
+        width: 120%;
+        font-size: 2rem;
+    }
+
+    #header-item .header-p {
+        margin: 10px -17%;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    #btn-flexes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px -22%;
+    }
+
+    /* contact page responsivness */
+    main section .contact-form-section {
+        display: block;
+    }
+
+    main section .contact-form-section .left-section {
+        width: 80vw;
+    }
+
+    main section .contact-form-section .left-section .inputs input {
+        width: 75vw;
+    }
+
+    main section .contact-form-section .left-section .inputs textarea {
+        width: 75vw;
+    }
+
+    main section .contact-form-section .left-section .inputs #select {
+        width: 75vw;
+    }
+
+    main section .contact-form-section .right-section {
+        width: 87vw;
+    }
+
+    main section .contact-form-section .right-section .top-section {
+        display: none;
+    }
+
+    main section .contact-form-section .right-section .buttom-section {
+        height: 23rem;
+        background-color: white;
+        border: 2px solid darkgray;
+        border-radius: 10px;
+        margin: 2rem 0;
+        box-shadow: 2px 2px 15px black;
+    }
+
+    main section .contact-form-section .right-section .buttom-section .map-location iframe {
+        width: 78vw;
+        height: 20rem;
+        margin: 20px 20px;
+    }
+}
+
+/* max width 600px */
+@media (max-width:600px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 45vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 -25vw;
+        font-size: 4.5vw;
+
+    }
+
+    #header-item .header-p {
+        font-size: 17px;
+        margin: 10px -23vw;
+    }
+
+    #btn-flexes {
+        margin: 10px -25vw;
+    }
+}
+
+/* max width 500px */
+@media (max-width:500px) {
+    nav .top-navbar .website-logo {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    nav .top-navbar .website-logo span {
+        color: blueviolet;
+        font-size: 18px;
+    }
+
+    nav .top-navbar .contact-icons {
+        font-size: 15px;
+    }
+
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 40vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 -23vw;
+        width: 100%;
+        font-size: 4.5vw;
+
+    }
+
+    /* contact page responsivness */
+    main section .contact-heading {
+        font-size: 1.5rem;
+    }
+}
+
+/* max width 450px */
+@media (max-width:450px) {
+    #header-item {
+        position: absolute;
+        top: 30%;
+        left: 38vw;
+    }
+
+    #header-item .header-heading {
+        margin: 0 -23vw;
+        width: 100%;
+        font-size: 4.5vw;
+    }
+
+    #header-item .header-p {
+        font-size: 3.4vw;
+        margin: 10px -23vw;
+    }
+
+    #header-item .header-btn1 .h-btn1 {
+        height: 1.7rem;
+        width: 25vw;
+        background: none;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    #header-item .header-btn1 a {
+        color: white;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    #header-item .header-btn2 .h-btn2 {
+        height: 1.7rem;
+        width: 25vw;
+        background: none;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    #header-item .header-btn2 a {
+        color: white;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    nav #navbar-open-icon {
+        position: absolute;
+        right: 1rem;
+        top: 4rem;
+        font-size: 25px;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+
+    }
+
+}
+
+/* max width 400px */
+@media (max-width:400px) {
+    nav .top-navbar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        background-color: white;
+        height: 40px;
+        margin: 0 5px;
+    }
+
+    nav .top-navbar .website-logo {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    nav .top-navbar .website-logo span {
+        color: blueviolet;
+        font-size: 15px;
+    }
+
+    nav .top-navbar .contact-icons {
+        font-size: 13px;
+    }
+
+    nav #navbar-open-icon {
+        position: absolute;
+        right: 1rem;
+        top: 2.9rem;
+        font-size: 25px;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+
+    }
+
+    /* conatct page responsiveness */
+    main section .contact-heading {
+        font-size: 1rem;
+    }
+
+    /* blog page responsivness */
+    main section .top-sec {
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+
+    /* Wdesign page responsiveness */
+    main section .websited-top-h {
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+
+    /* about us page responsivness */
+    main section .top-about-us-h {
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+    
+}

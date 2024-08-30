@@ -1,0 +1,752 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+nav .top-navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 50px;
+}
+
+nav .top-navbar .website-logo {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+nav .top-navbar .website-logo span {
+    color: blueviolet;
+    font-size: 23px;
+}
+
+nav .top-navbar .contact-icons {
+    font-size: 20px;
+}
+
+nav .top-navbar .contact-icons a {
+    color: black;
+}
+
+nav .top-navbar .contact-icons i {
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+nav .top-navbar .contact-icons i:hover {
+    background-color: rgb(235, 230, 230);
+    color: blue;
+    box-shadow: 1px 1px 10px blue;
+
+}
+
+nav #navbar-open-icon {
+    position: absolute;
+    right: 2rem;
+    top: 4rem;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+nav #navbar-open-icon:hover {
+    background-color: rgb(143, 148, 148);
+}
+
+nav #navlist-close-icon {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 25px;
+    display: none;
+}
+
+nav .nav-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav .nav-bar ul {
+    display: inline-flex;
+}
+
+nav .nav-bar ul li {
+    padding: 5px 15px;
+    margin: 0 1px;
+    font-weight: bold;
+}
+
+.active,
+nav .nav-bar ul li:hover {
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+}
+
+nav .nav-bar ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav .nav-bar .drop-down-menu:hover .drop-down-list {
+    display: block;
+}
+
+nav .nav-bar .drop-down-menu .drop-down-list {
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+nav .nav-bar .drop-down-menu .drop-down-list {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+header .header-img {
+    background-image: url(imgs/man-1839500_640.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-blend-mode: darken;
+}
+
+#header-item {
+    position: relative;
+    top: 7rem;
+    left: 15rem;
+    width: 60%;
+}
+
+#header-item .header-heading {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#header-item .header-p {
+    width: 98%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#btn-flexes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header-item .header-btn1 .h-btn1 {
+    height: 1.7rem;
+    width: 7rem;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#header-item .header-btn1 a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#header-item .header-btn1 .h-btn1:hover {
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+
+#header-item .header-btn1 .h-btn1 a:hover {
+    color: black;
+    transition-duration: 1s;
+}
+
+#header-item .header-btn2 .h-btn2 {
+    height: 1.7rem;
+    width: 7rem;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#header-item .header-btn2 a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#header-item .header-btn2 .h-btn2:hover {
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+
+#header-item .header-btn2 .h-btn2 a:hover {
+    color: black;
+    transition-duration: 1s;
+}
+
+/* main section start  */
+main section .about-us-section {
+    background-color: white;
+    margin: 10px 20px;
+}
+
+main section .about-us-section .about-us-h {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+main section .about-us-section .about-us-p {
+    text-align: center;
+}
+
+main section .our-mission-section {
+    background-color: white;
+    margin: 20px 20px;
+}
+
+main section .our-mission-section .our-mission-h {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+main section .our-mission-section .our-mission-p {
+    text-align: center;
+}
+
+main section .our-mission-section .our-mission-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+main section .our-mission-section .our-mission-img img {
+    width: 18rem;
+    margin: 10px 10px;
+    border: 1px solid rgb(207, 203, 203);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+main section .our-team-section {
+    background-color: white;
+    margin: 20px 20px;
+}
+
+main section .our-team-section .our-team-h {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+main section .our-team-section .our-mission-p {
+    text-align: center;
+}
+
+main section .our-team-section .our-team-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+main section .our-team-section .our-team-imgs .images {
+    padding: 10px 5px;
+    width: 17rem;
+    height: 25rem;
+    margin: 10px 10px;
+    border: 1px solid rgb(207, 203, 203);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    background-color: rgb(255, 255, 255);
+}
+
+main section .our-team-section .our-team-imgs .images img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 14rem;
+    height: 13rem;
+    border: 2px solid black;
+    margin: 10px 20px;
+    border-radius: 50%;
+}
+
+main section .our-team-section .our-team-imgs .images div {
+    padding: 10px 10px;
+}
+
+/* footer section start */
+footer {
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+}
+
+footer section .footer-logo {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+footer section .footer-icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+footer section .footer-icons a i {
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    font-size: 20px;
+    color: white;
+}
+
+footer section .footer-icons i:hover {
+    box-shadow: 1px 1px 10px white;
+}
+
+footer section .footer-aboutus h3 {
+    text-align: center;
+}
+
+footer section .footer-aboutus p {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+footer section .footer-copyright {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* contact page start  */
+/* main section */
+main section .contact-heading {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(66, 65, 65, 0.678);
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+
+main section .contact-form-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section .contact-form-section .left-section {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    width: 40%;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+
+main section .contact-form-section .left-section .inputs {
+    padding: 5px 0;
+}
+
+main section .contact-form-section .left-section .gender {
+    margin: 5px 0;
+}
+
+main section .contact-form-section .left-section .gender p {
+    font-size: 1.2rem;
+    padding: 2px 0;
+    font-weight: bold;
+}
+
+main section .contact-form-section .left-section .gender .in {
+    font-size: 2rem;
+}
+
+main section .contact-form-section .left-section .inputs input {
+    width: 35vw;
+    height: 1.6rem;
+    font-size: 1.2rem;
+    padding: 1px 5px;
+    border-radius: 7px;
+}
+
+main section .contact-form-section .left-section .inputs p {
+    font-size: 1.2rem;
+    padding: 2px 0;
+    font-weight: bold;
+}
+
+main section .contact-form-section .left-section .inputs textarea {
+    width: 35vw;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+}
+
+main section .contact-form-section .left-section .inputs #select {
+    width: 36vw;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    border-radius: 7px;
+}
+
+main section .contact-form-section .left-section .submit-btn .btn {
+    width: 9rem;
+    height: 1.9rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: white;
+    border: 0;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    padding: 4px 0;
+    margin: 10px 0;
+
+}
+
+main section .contact-form-section .left-section .submit-btn .btn:hover {
+    background-color: darkgray;
+}
+
+main section .contact-form-section .right-section {
+    width: 45%;
+    margin: 15px 15px;
+}
+
+main section .contact-form-section .right-section .top-section {
+    height: 13rem;
+    background-color: white;
+    border: 2px solid darkgray;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+}
+
+main section .contact-form-section .right-section .top-section h2 {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.7rem;
+}
+
+main section .contact-form-section .right-section .top-section .right-sec-items {
+    padding: 5px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+main section .contact-form-section .right-section .buttom-section {
+    height: 19rem;
+    background-color: white;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 2px 2px 15px black;
+}
+
+main section .contact-form-section .right-section .buttom-section .map-location iframe {
+    width: 40vw;
+    height: 16.4rem;
+    margin: 20px 20px;
+}
+
+/* blog page start  */
+main section .top-sec {
+    font-size: 2rem;
+    height: 4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 123, 123);
+    color: white;
+}
+
+nav .search-blog-sec {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+nav .search-blog-sec span {
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 2.2rem;
+}
+
+nav .search-blog-sec span input {
+    width: 70vw;
+    height: 1.5rem;
+    border: 0;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+}
+
+nav .search-blog-sec span button {
+    font-size: 1.3rem;
+    border: 0;
+    background: none;
+    padding: 0 5px;
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+
+nav .search-blog-sec span button:hover {
+    background-color: rgb(245, 243, 241);
+}
+
+nav .blog-icon {
+    margin: 3.5rem 0;
+}
+
+main section .main-section-blog .container div {
+    background-color: white;
+    margin: 10px 20rem 10px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Wdesigns page start  */
+main section .websited-top-h {
+    font-size: 2rem;
+    height: 4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 123, 123);
+    color: white;
+}
+
+main section .second-sec-wd-about h2 {
+    text-align: center;
+}
+
+main section .second-sec-wd-about .flex-about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+main section .second-sec-wd-about .flex-about p {
+    width: 66vw;
+    padding: 5px 20px;
+}
+
+main section .second-sec-wd-about .flex-about img {
+    border-radius: 20px;
+    width: 20rem;
+    margin: 10px 20px;
+}
+
+main section .best-wd {
+    background-color: white;
+    margin: 5px 20px;
+}
+
+main section .best-wd .portfolio-wd,
+main section .best-wd .e-commerace-wd,
+main section .best-wd .bloging-wd {
+    padding: 10px 10px;
+}
+
+main section .best-wd .portfolio-wd h1,
+main section .best-wd .e-commerace-wd h1,
+main section .best-wd .bloging-wd h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main section .best-wd .portfolio-wd .images-gellary,
+main section .best-wd .e-commerace-wd .images-gellary,
+main section .best-wd .bloging-wd .images-gellary {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section .best-wd .portfolio-wd .images-gellary img,
+main section .best-wd .e-commerace-wd .images-gellary img,
+main section .best-wd .bloging-wd .images-gellary img {
+    width: 18rem;
+    height: 16rem;
+    margin: 10px 10px;
+    border: 1px solid darkgray;
+}
+
+/* about us page start  */
+main section .top-about-us-h {
+    font-size: 2rem;
+    height: 4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 123, 123);
+    color: white;
+}
+main section .top-about-us-h p{
+    animation: paddingLeft 1s ease-in 1;
+}
+
+main section .about-us-sec {
+    background-color: white;
+}
+
+main section .about-us-sec .about-us-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+main section .about-us-sec .about-us-flex .about-h-p {
+    width: 60vw;
+    padding: 10px 10px;
+}
+
+main section .about-us-sec .about-us-flex .about-h-p p b {
+    font-size: 5vw;
+    padding: 0 20px;
+}
+
+main section .about-us-sec .about-us-flex .about-img img {
+    width: 35vw;
+    height: 25rem;
+    margin: 10px 20px;
+}
+
+main section .about-us-sec .about-us-flex .about-h-p .about-us-btn {
+    margin: 20px 30px;
+}
+
+main section .about-us-sec .about-us-flex .about-h-p .about-us-btn button {
+    border: 1px solid darkgray;
+    background: none;
+    width: 11rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    animation: paddingLeft 1s ease-in 1;
+}
+
+main section .about-us-sec .about-us-flex .about-h-p .about-us-btn button a {
+    color: black;
+    font-weight: bolder;
+}
+
+main section .about-us-sec .about-us-flex .about-h-p .about-us-btn button:hover {
+    background-color: darkgray;
+}
+
+main section .about-project-sec {
+    background-color: white;
+}
+
+main section .about-project-sec .project-h {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0;
+    animation: paddingLeft 1s ease-in 1;
+}
+@keyframes paddingLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform:  translateX(0%);
+    }
+}
+
+main section .about-project-sec p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+
+main section .about-project-sec .project-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section .about-project-sec .project-list div {
+    margin: 10px 10px;
+}
+
+main section .about-project-sec .project-list div h3 {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+main section .about-project-sec .project-list div p button {
+    width: 10rem;
+    height: 1.6rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid darkgray;
+}
+
+main section .about-project-sec .project-list div p button:hover {
+    background-color: darkgray;
+}
+
+main section .about-project-sec .project-list div p button a {
+    color: black;
+}
+
+main section .about-project-sec .project-list div img {
+    width: 20rem;
+    height: 20rem;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+main section .about-project-sec .project-list div img:hover{
+    border-radius: 0;
+}
